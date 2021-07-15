@@ -54,6 +54,25 @@ img {
   margin: 10px auto;
 }
 
+.subtitulo_interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo_interno::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 10px 0;
+}
+
 /*Header*/
 .header {
   position: fixed;
@@ -87,6 +106,12 @@ img {
 .header_menu ul li a:hover {
   color: #fff;
 }
+
+.header_menu ul li a.menu_ativo{
+  color: #fff;
+}
+
+
 /*Introdução*/
 .introducao {
   width: 100%;
@@ -125,11 +150,38 @@ img {
   background: #fff;
   margin: 14px auto 10px auto;
 }
+
 .quote-externo cite {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.1em;
+}
+
+/*Introdução interna*/
+
+.introducao-interna{
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto 10px auto;
 }
 
 /*Produtos*/
@@ -151,6 +203,7 @@ img {
   letter-spacing: 0.1em;
   margin-top: 20px;
 }
+
 .produtos_lista li h3::after {
   content: "";
   display: block;
@@ -209,24 +262,25 @@ img {
   padding: 60px 0;
 }
 
-.qualidade::after{
-    content: "";
-    width: 634px;
-    height: 83px;
-    display: block;
-    background: url("../img/linhas.svg") no-repeat center;
-    position: absolute;
-    top: 201px;
-    right: 162px;
-    z-index: -1;
+.qualidade::after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 201px;
+  right: 162px;
+  z-index: -1;
 }
 
 .qualidade img {
   margin: 0 auto;
 }
 
-.qualidade_lista{
-    padding-top: 20px;
+.qualidade_lista {
+  padding-top: 20px;
+  overflow: auto;
 }
 
 .qualidade_lista li {
@@ -242,6 +296,7 @@ img {
   letter-spacing: 0.1em;
   margin-top: 20px;
 }
+
 .qualidade_lista li h3::after {
   content: "";
   display: block;
@@ -253,29 +308,30 @@ img {
 
 /*Quebra*/
 
-.quebra{
+.quebra {
   width: 100%;
-  height: 220px;;
+  height: 220px;
+  ;
   background: url(../img/bg-footer.jpg) no-repeat center;
   background-size: cover;
   text-align: center;
   padding-top: 40px;
 }
 
-.quebra .quote-externo{
+.quebra .quote-externo {
   max-width: 400px;
 }
 
 /*Footer*/
 
-.footer{
+.footer {
   width: 100%;
   background: #000;
-  color:#fff;
+  color: #fff;
   padding: 20px;
 }
 
-.footer h3{
+.footer h3 {
   font-size: 18px;
   line-height: 25px;
   color: #fec63e;
@@ -284,7 +340,7 @@ img {
   font-weight: bold;
 }
 
-.footer h3::after{
+.footer h3::after {
   content: "";
   display: block;
   width: 60px;
@@ -293,32 +349,32 @@ img {
   margin: 6px 0 12px 0;
 }
 
-.footer_historia{
+.footer_historia {
   padding-right: 40px;
 }
 
-.footer_contato ul li{
+.footer_contato ul li {
   font-size: 14px;
   line-height: 20px;
   font-family: Georgia, "Times New Roman", serif;
 }
 
-.footer_redes ul li{
+.footer_redes ul li {
   display: inline-block;
   margin-right: 10px;
 }
 
-.footer_redes ul li a{
+.footer_redes ul li a {
   border: 3px solid #fec63e;
   display: block;
   padding: 10px;
 }
 
-.footer_redes ul li a:hover{
+.footer_redes ul li a:hover {
   border-color: #fff;
 }
 
-.copyright{
+.copyright {
   width: 100%;
   background: #fec63e;
   padding: 20px 0;
