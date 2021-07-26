@@ -1,20 +1,16 @@
-/*Tables*/
-
+/*Tablet*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 	
 	/*Qualidade home*/
-
 	.qualidade::after {
 		right: 66px;
 	}
 
 	.qualidade_lista li {
-		text-align: center;
 		padding: 0 10px;
 	}
 
 	/*Footer*/
-
 	.footer_redes ul li a {
 		border: 3px solid #fec63e;
 		display: block;
@@ -28,11 +24,9 @@
 }
 
 /*Smartphone*/
-
 @media only screen and (max-width: 787px) {
 
 	/*Header*/
-
 	.header {
 		position: relative;
 		padding-bottom: 0px;
@@ -61,8 +55,11 @@
 		border-color: #fff;
 	}
 
-	/*Intro*/
+	.header_menu ul li a.menu_ativo{
+		border-color: #fff;
+	}
 
+	/*Intro*/
 	.introducao{
 		margin-top: 0px;
 		padding-top: 40px;
@@ -74,15 +71,30 @@
 		font-size: 36px;
 	}
 
-	/*Chamada*/
+	/*Introdução interna*/
+	.introducao-interna{
+		margin-top: 0px;
+	}
 
+	/*Chamada*/
 	.chamada {
 		padding-top: 10px;
 	}
 
 	/*Qualidade Home*/
-
 	.qualidade::after {
 		display: none;
+	}
+
+	/*Sobre*/
+	.missao_sobre p{
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0px;
+	}
+
+	.missao_sobre ul li{
+		font-size: 14px;
+		line-height: 25px;
 	}
 }
