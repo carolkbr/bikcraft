@@ -122,7 +122,6 @@
 	}
 
 	/*Produtos*/
-
 	.produto_item h2 {
 		top: -100px;
 		margin-bottom: -68px;
@@ -152,5 +151,11 @@
 
 	.orcamento_dados ul {
 		padding-right: 0px;
+	}
+
+	/*Contato*/
+	.contato_form {
+		padding-right: 0px;
+		margin-bottom: 40px;
 	}
 }
