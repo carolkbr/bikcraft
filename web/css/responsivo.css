@@ -1,6 +1,6 @@
 /*Tablet*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
-	
+
 	/*Qualidade home*/
 	.qualidade::after {
 		right: 66px;
@@ -17,9 +17,32 @@
 		padding: 6px;
 	}
 
-	.footer_redes ul li a img{
+	.footer_redes ul li a img {
 		width: 26px;
 		height: 26px;
+	}
+
+	/*Produtos*/
+
+	.produto_item h2 {
+		top: -150px;
+		margin-bottom: -55px;
+	}
+
+	.produto_icone {
+		padding: 41px 0;
+	}
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: 122px;
+		padding: 20px 30px;
+	}
+
+
+	.produto_info ul li {
+		width: 181px;
 	}
 }
 
@@ -32,47 +55,47 @@
 		padding-bottom: 0px;
 	}
 
-	.header img{
+	.header img {
 		margin: 0 auto 10px auto;
 	}
 
-	.header_menu{
+	.header_menu {
 		text-align: center;
 	}
 
-	.header_menu ul li{
+	.header_menu ul li {
 		margin: 5px;
 	}
 
-	.header_menu ul li a{
+	.header_menu ul li a {
 		border: 4px solid #000;
 		width: 136px;
 		display: block;
 		float: left;
 	}
 
-	.header_menu ul li a:hover{
+	.header_menu ul li a:hover {
 		border-color: #fff;
 	}
 
-	.header_menu ul li a.menu_ativo{
+	.header_menu ul li a.menu_ativo {
 		border-color: #fff;
 	}
 
 	/*Intro*/
-	.introducao{
+	.introducao {
 		margin-top: 0px;
 		padding-top: 40px;
 		background: url("../img/bg-mobile.jpg") no-repeat center;
 		background-size: cover;
 	}
 
-	.introducao h1{
+	.introducao h1 {
 		font-size: 36px;
 	}
 
 	/*Introdução interna*/
-	.introducao-interna{
+	.introducao-interna {
 		margin-top: 0px;
 	}
 
@@ -87,14 +110,47 @@
 	}
 
 	/*Sobre*/
-	.missao_sobre p{
+	.missao_sobre p {
 		font-size: 14px;
 		line-height: 20px;
 		padding-right: 0px;
 	}
 
-	.missao_sobre ul li{
+	.missao_sobre ul li {
 		font-size: 14px;
 		line-height: 25px;
+	}
+
+	/*Produtos*/
+
+	.produto_item h2 {
+		top: -100px;
+		margin-bottom: -68px;
+	}
+
+	.produto_icone {
+		padding: 41px 0;
+	}
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: auto;
+		padding: 20px 30px;
+	}
+
+	.produto_info ul li {
+		width: 149px;
+		font-size: 14px;
+		line-height: 20px;
+		padding-top: 14px;
+	}
+
+	.form {
+		padding-right: 0px;
+	}
+
+	.orcamento_dados ul {
+		padding-right: 0px;
 	}
 }
